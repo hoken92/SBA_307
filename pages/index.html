@@ -20,7 +20,7 @@
       <div id="top-container">
         <!-- Top selling items table -->
         <table>
-          <caption>
+          <caption id="table-caption-1">
             Top 10 items of the week
           </caption>
           <thead>
@@ -47,7 +47,7 @@
           </tbody>
           <tfoot>
             <tr>
-              <th>test</th>
+              <th>Test</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
@@ -59,19 +59,78 @@
       <div class="bottom-container">
         <!-- Subcriber form -->
         <form action="#">
-          <label>
+          <label for="full-name">
             Full Name:
-            <input type="text" name="full-name" />
+            <input
+              type="text"
+              name="full-name"
+              id="full-name"
+              required
+              placeholder="Name"
+            />
           </label>
-          <label>
+          <label for="email">
             Email:
-            <input type="email" name="email" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="test@example.com"
+            />
+          </label>
+          <label for="topics">
+            Choose a Topic:
+            <select name="topics" id="topics" required>
+              <option value="">Please Choose an Option</option>
+              <option value="Lorem">Lorem</option>
+              <option value="ipsum">ipsum</option>
+              <option value="ipsum dolor">ipsum dolor</option>
+              <option value="Dolor">Dolor</option>
+              <option value="Consectetur">Consectetur</option>
+            </select>
           </label>
           <!-- Sign up button -->
           <input type="submit" value="Sign Up" />
         </form>
       </div>
-      <div class="botoom-container"></div>
+      <div class="botoom-container">
+        <table>
+          <caption id="table-caption-2">
+            Last 5 viewed:
+          </caption>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Brand</th>
+              <th>Theme</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Test</th>
+              <td>One</td>
+              <td>Two</td>
+              <td>Three</td>
+            </tr>
+            <tr>
+              <th>Test</th>
+              <td>One</td>
+              <td>Two</td>
+              <td>Three</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th>Test</th>
+              <td>One</td>
+              <td>Two</td>
+              <td>Three</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
     </div>
   </body>
 </html>
