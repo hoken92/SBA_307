@@ -18,13 +18,17 @@
     <h1>Home</h1>
     <div id="page-container">
       <div id="top-container">
+        <!-- Top selling items table -->
         <table>
+          <caption>
+            Top 10 items of the week
+          </caption>
           <thead>
             <tr>
               <th></th>
-              <th>One</th>
-              <th>Two</th>
-              <th>Three</th>
+              <th>Brand</th>
+              <th>Theme</th>
+              <th>Price</th>
             </tr>
           </thead>
           <tbody>
@@ -50,10 +54,21 @@
             </tr>
           </tfoot>
         </table>
+        <a href="./listing.html">View More</a>
       </div>
       <div class="bottom-container">
+        <!-- Subcriber form -->
         <form action="#">
-          <label><input type="text" name="" /></label>
+          <label>
+            Full Name:
+            <input type="text" name="full-name" />
+          </label>
+          <label>
+            Email:
+            <input type="email" name="email" />
+          </label>
+          <!-- Sign up button -->
+          <input type="submit" value="Sign Up" />
         </form>
       </div>
       <div class="botoom-container"></div>
