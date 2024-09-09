@@ -19,13 +19,11 @@ body {
 
 #nav-bar ul {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 #nav-bar li {
-    margin: 20px 30px;
+    margin: 1rem 5rem;
+    font-size: 20px;
 }
 
 #nav-bar a, #navbar a:visited {
