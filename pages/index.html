@@ -19,7 +19,7 @@
     <div class="page-container">
       <div id="top-container">
         <!-- Top selling items table -->
-        <table>
+        <table id="top-ten-table">
           <caption id="table-caption-1">
             Top 10 items of the week
           </caption>
@@ -34,70 +34,70 @@
           </thead>
           <tbody>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item One</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
               <td>Four</td>
             </tr>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item Two</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
               <td>Four</td>
             </tr>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item Three</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
               <td>Four</td>
             </tr>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item Four</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
               <td>Four</td>
             </tr>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item Five</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
               <td>Four</td>
             </tr>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left" s>Item Six</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
               <td>Four</td>
             </tr>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item Seven</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
               <td>Four</td>
             </tr>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item Eight</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
               <td>Four</td>
             </tr>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item Nine</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
               <td>Four</td>
             </tr>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item Ten</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
@@ -113,6 +113,7 @@
         <form action="#">
           <label for="full-name">
             Full Name:
+            <br />
             <input
               type="text"
               name="full-name"
@@ -123,6 +124,7 @@
           </label>
           <label for="email">
             Email:
+            <br />
             <input
               type="email"
               name="email"
@@ -133,6 +135,7 @@
           </label>
           <label for="topics">
             Choose a Topic:
+            <br />
             <select name="topics" id="topics" required>
               <option value="">Please Choose an Option</option>
               <option value="Lorem">Lorem</option>
@@ -143,13 +146,16 @@
             </select>
           </label>
           <!-- Sign up button -->
-          <input type="submit" value="Sign Up" />
+          <input id="sign-up-button" type="submit" value="Sign Up" />
         </form>
       </div>
-      <div class="botoom-container">
-        <table>
+      <div class="bottom-container">
+        <table
+          id="last-visited-table"
+          style="width: 80%; text-align: center; position: relative; top: -10px"
+        >
           <caption id="table-caption-2">
-            Last 5 viewed:
+            Last 5 Viewed Items:
           </caption>
           <thead>
             <tr>
@@ -161,31 +167,31 @@
           </thead>
           <tbody>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item One</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
             </tr>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item Two</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
             </tr>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item Three</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
             </tr>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item Four</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>
             </tr>
             <tr>
-              <th>Test</th>
+              <th style="text-align: left">Item Five</th>
               <td>One</td>
               <td>Two</td>
               <td>Three</td>

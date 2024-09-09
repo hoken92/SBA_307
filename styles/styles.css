@@ -31,3 +31,107 @@ body {
     text-decoration: none;
     color: #fefae0;
 }
+
+h1{
+    margin: .8rem 2rem;
+}
+
+.page-container {
+    margin: 25px 0;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#top-container {
+    margin: 20px 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#table-caption-1 {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+#top-ten-table {
+    width: 50%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#top-ten-table th, #top-ten-table td {
+    padding: 8px 0;
+}
+
+#top-container a {
+    text-decoration: none;
+    background-color: #dda15e;
+    padding: 7px;
+    border-radius: 5px;
+    color: #fefae0;
+    position: relative;
+    left: 21.5rem;
+}
+
+#top-container a:visited {
+    color: #fefae0
+}
+
+#top-container a:hover {
+    background-color: #bc6c25;
+}
+
+.bottom-container {
+    margin: 20px 0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-container h3 {
+    font-size: 22px;
+}
+
+.bottom-container form {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+#form-title, .bottom-container form input, .bottom-container form select{
+    margin-bottom: 10px;
+}
+
+#sign-up-button {
+    width: 75px;
+    height: 25px;
+    background-color: #dda15e;
+    color: #fefae0;
+    border: none;
+    border-radius: 5px;
+}
+
+#sign-up-button:hover {
+        background-color: #bc6c25;
+        cursor: pointer;
+}
+
+#table-caption-2 {
+    font-size: 25px;
+    position: relative;
+}
+
+#last-visited-table th, #last-visited-table td {
+    padding: 5px 0;
+}
