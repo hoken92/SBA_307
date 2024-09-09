@@ -4,6 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/styles.css" />
     <title>About us</title>
+    <style>
+      #about-container, #faq-container, #contact-container {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #about-container img {
+        width: 400px;
+      }
+
+    </style>
   </head>
   <body>
     <nav id="nav-bar">
@@ -55,7 +69,7 @@
           </p>
         </section>
       </div>
-      <div class="contact-container">
+      <div id="contact-container">
         <h2>Contact Us for Questions!</h2>
         <p>We usually respond within 2-3 business days.</p>
         <form action="#"></form>
@@ -99,4 +113,8 @@
       </div>
     </div>
   </body>
+  <footer>
+    <p>Founded in 2020</p>
+    <a href="./faq.html">More About Us</a>
+  </footer>
 </html>

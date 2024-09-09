@@ -7,6 +7,8 @@ body {
     color: #bc6c25;
 }
 
+
+
 #nav-bar {
     height: 5rem;
     width: 100%;
@@ -43,7 +45,6 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 #top-container {
@@ -134,4 +135,55 @@ h1{
 
 #last-visited-table th, #last-visited-table td {
     padding: 5px 0;
+}
+
+#listing-container {
+    margin: 50px auto;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.items img {
+    width: 250px;
+
+}
+
+.items {
+    height: 300px;
+    width: 250px;
+    display: grid;
+    grid-template-rows: auto;
+    margin: 0px 15px 0px 15px;
+    font-size: 18px;
+}
+
+.price {
+    margin-left: 180px;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #fefae0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 20px 0;
+    bottom: -25rem;
+}
+
+footer p, footer a {
+    margin: 0px 15px
+}
+
+footer a {
+    color: #bc6c25;
 }
