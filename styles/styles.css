@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    color: #bc6c25;
+}
+
 #nav-bar {
     height: 5rem;
     width: 100%;
