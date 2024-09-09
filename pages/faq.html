@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="../styles/styles.css" />
     <title>About us</title>
     <style>
-      #about-container, #faq-container, #contact-container {
+      #about-container, #faq-container{
         width: 60%;
         display: flex;
         flex-direction: column;
@@ -17,6 +17,9 @@
         width: 400px;
       }
 
+      #faq-container {
+        text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -75,6 +78,7 @@
         <form action="#"></form>
         <label for="full-name">
           Full Name:
+          <br>
           <input
             type="text"
             name="full-name"
@@ -85,6 +89,7 @@
         </label>
         <label for="email">
           Email:
+          <br>
           <input
             type="email"
             name="email"
@@ -95,6 +100,7 @@
         </label>
         <label for="topics">
           Choose a Topic:
+          <br>
           <select name="topics" id="topics" required>
             <option value="">Please Choose an Option</option>
             <option value="Lorem">Lorem</option>
@@ -103,12 +109,15 @@
             <option value="Dolor">Dolor</option>
             <option value="Consectetur">Consectetur</option>
           </select>
-          <label for="contact-textarea">
+        </label>
+        <label for="contact-textarea">
             Please describe your issue:
-            <textarea name="issue" id="contact-textarea" placeholder="Please provide info in a few sentences." required></textarea>
+            <br>
+            <textarea name="issue" id="contact-textarea" placeholder="Please provide info in a few sentences." rows="10"
+            cols="50" maxlength="150" required></textarea>
           </label>
         </label>
-        <input type="submit" value="Submit" />
+        <input id="submit-button" type="submit" value="Submit" />
       </form>
       </div>
     </div>
